@@ -28,7 +28,7 @@ Modular design, three parts:
 | **PD-MCU board** | USB-C → eDP | generic eDP panels | 🚧 Planned |
 
 > **ℹ️ Whether a panel lights up is decided by the source ↔ panel handshake, not by this table.**
-> eDP *is* DisplayPort. The mainboards are transparent bridges and add **no** restrictions on the video source. If your source device (PC GPU, laptop, SBC…) can output the panel's native resolution and timing over DP, it will work directly — many GPUs drive an eDP panel out of the box once the driver is installed, while some sources need the correct resolution/timing configured. The adapters listed above exist because devices like iPads use a **non-standard panel connector** — they solve the connector problem, and are not a whitelist of supported sources.
+> eDP *is* DisplayPort. Whether a given source can drive a given panel depends on the link negotiation between them — specifically whether the source accepts the panel's **EDID** (including EDID forwarded through a converter chip). The adapters listed above exist because devices like iPads use a **non-standard panel connector** — they solve the connector problem, not source compatibility.
 
 ## 📱 iPad Adapter Compatibility
 
