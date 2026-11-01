@@ -53,7 +53,7 @@ iPad-series connectors are often symmetrical and can be physically plugged in ba
 
 Click the link below to download the complete production files for **dptoipad-lite-v1.0**:
 
-[Download dptoipad-lite-v1.0.rar (RAR)](https://github.com/MakeCycle-lab/makecycle-lab/releases/download/Release-Main-Boards/dptoipad-lite-v1.0.rar)
+[Download dptoipad-lite-v1.0.rar (RAR)](https://github.com/MakeCycle-lab/edp-monitor-diy/releases/download/v1.0/dptoipad-lite-v1.0.rar)
 
 ---
 
